@@ -15,4 +15,4 @@ This repository contains the code implementations of the research papers I have 
 - 
 
 ### 🗒️ Annotations and Explanations (Tistory - Korean)
-🌐 [https://kyeongha-blog.tistory.com/entry/Transformer-Attention-Is-All-You-Need]
+🌐 Attention is All You Need[https://kyeongha-blog.tistory.com/entry/Transformer-Attention-Is-All-You-Need]
