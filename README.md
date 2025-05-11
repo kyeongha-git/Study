@@ -9,10 +9,11 @@ This repository contains the code implementations of the research papers I have 
 
 ### 📖 Paper List
 - Attention is All You Need (Transformer)
-- An Image Is Worth 16 X 16 Words: Transformers For Image Recognition At Scale
+- An Image Is Worth 16 X 16 Words: Transformers For Image Recognition At Scale (Vision Transformer)
 
 ### 💻 Code Implementations
 - 
 
 ### 🗒️ Annotations and Explanations (Tistory - Korean)
 🌐 [Attention is All You Need](https://kyeongha-blog.tistory.com/entry/Transformer-Attention-Is-All-You-Need)
+🌐 [An Image Is Worth 16 X 16 Words: Transformers For Image Recognition At Scale](https://kyeongha-blog.tistory.com/entry/Vision-Transformer-AN-IMAGE-IS-WORTH-16X16-WORDS-TRANSFORMERS-FOR-IMAGE-RECOGNITION-AT-SCALE))
