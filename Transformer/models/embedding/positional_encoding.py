@@ -5,14 +5,14 @@
 
 
 import torch
-import troch.nn
+import torch.nn
 
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, max_len, device):
         super(PositionalEncoding, self).__init__()
         # encoding matrix
         self.encoding = torch.zeros(max_len, d_model, device = device)
-        slef.encoding.requires_grad = False # 논문에서 이를 학습하여 정해도 성능이 비슷했다고 함. 따라서, 학습은 하지 않음.
+        self.encoding.requires_grad = False # 논문에서 이를 학습하여 정해도 성능이 비슷했다고 함. 따라서, 학습은 하지 않음.
 
         # positon matrix
         pos = torch.arange(0, max_len, device = device)

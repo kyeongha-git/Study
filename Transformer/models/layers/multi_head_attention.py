@@ -11,7 +11,7 @@ from models.layers.scale_dot_product_attention import ScaleDotProductAttention
 class MultiHeadAttention(nn.Module):
 
     def __init__(self, d_model, n_head):
-        super(ScaleDotProductAttention, self).__init__()
+        super(MultiHeadAttention, self).__init__()
         self.n_head = n_head
         self.attention = ScaleDotProductAttention()
         self.w_q = nn.Linear(d_model, d_model)
@@ -20,13 +20,13 @@ class MultiHeadAttention(nn.Module):
         self.w_concat = nn.Linear(d_model, d_model)
 
     def forward(self, q, k, v, mask = None):
-        q = self.w_q(q) # bath_size, length, d_model
+        q = self.w_q(q) # batch_size, length, d_model
         q = self.split(q) # batch_szie, head, length, d_model
         
-        k = self.w_k(k) # bath_size, length, d_model
+        k = self.w_k(k) # batch_size, length, d_model
         k = self.split(k) # batch_szie, head, length, d_model
         
-        v = self.w_v(v) # bath_size, length, d_model
+        v = self.w_v(v) # batch_size, length, d_model
         v = self.split(v) # batch_szie, head, length, d_model
 
         out, attention = self.attention(q, k, v, mask = mask)

@@ -33,18 +33,18 @@ class DecoderLayer(nn.Module):
         
         _x = dec
         x = self.attention(q = dec, k = dec, v = dec, mask = trg_mask) # Mask Multi-Head Attention
-        x = dropout1(x)
-        x = norm1(x + _x)
+        x = self.dropout1(x)
+        x = self.norm1(x + _x)
 
         if enc is not None: # Encoder의 출력이 있는 경우.
-            x = enc_dec_attention(q = x, k = enc, v =enc, mask = src_maskn
-            x = dropout2(x)
-            x = norm2(x + _x)            
+            x = self.enc_dec_attention(q = x, k = enc, v =enc, mask = src_mask)
+            x = self.dropout2(x)
+            x = self.norm2(x + _x)            
         _x = x
         
-        x = ffn(x)
-        x = dropout3(x)
-        x = norm3(x + _x)
+        x = self.ffn(x)
+        x = self.dropout3(x)
+        x = self.norm3(x + _x)
 
         return x
 

@@ -6,7 +6,7 @@
 
 import torch
 import torch.nn
-from models.blocks.encoder_laeyr import EncoderLayer
+from models.blocks.encoder_layer import EncoderLayer
 from models.embedding.transformer_embedding import TransformerEmbedding
 
 class Encoder(nn.Module):
@@ -19,7 +19,7 @@ class Encoder(nn.Module):
                                         drop_prob = drop_prob,
                                         device = device)
         
-        self.encoder = nn.Modulelist([EncoderLayer(d_model = d_model,
+        self.encoder = nn.ModuleList([EncoderLayer(d_model = d_model,
                                                    ffn_hidden = ffn_hidden,
                                                    n_head = n_head,
                                                    drop_prob = drop_prob)
@@ -30,8 +30,8 @@ class Encoder(nn.Module):
         x = self.emb(x)
 
         # Encoder
-        for layer in encoder:
-            x = laeyr(x, src_mask)
+        for layer in self.encoder:
+            x = layer(x, src_mask)
         
         return x
 

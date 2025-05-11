@@ -15,7 +15,7 @@ class EncoderLayer(nn.Module):
         super(EncoderLayer, self).__init__()
         self.attention = MultiHeadAttention(d_model, n_head)
         self.norm1 = LayerNorm(d_model = d_model)
-        self.dropout1 = nn.Dropout(p = drop_porb)
+        self.dropout1 = nn.Dropout(p = drop_prob)
         
         self.ffn = PositionwiseFeedForward(d_model, ffn_hidden, drop_prob)
         self.norm2 = LayerNorm(d_model = d_model)

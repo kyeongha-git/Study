@@ -11,7 +11,7 @@ class ScaleDotProductAttention(nn.Module):
 
     def __init__(self):
         super(ScaleDotProductAttention, self).__init__()
-        self.softmax = nn.Sorftmax(dim=-1)
+        self.softmax = nn.Softmax(dim=-1)
 
     def forward(self, q, k, v, mask = None, e=1e-12):
         # Process: Matmul(Q, K) -> Scale -> Mask (opt.) -> SoftMax (여기까지 Attention Score) -> MatMul(Score, V)
@@ -22,12 +22,12 @@ class ScaleDotProductAttention(nn.Module):
 
         # scale dot_prodct
         k_t = k.transpose(2,3)
-        score = q@k / math.sqrt(d_tensor)
+        score = q@k_t / math.sqrt(d_tensor)
 
         # mask (opt.)
         # masked_fill은 삼각행렬을 만들고 0의 위치에 있는 어텐션 함수 행렬의 값을 -10000으로 대체하는 것.
         if mask is not None:
-            scroe = score.masked_fill(mask == 0, -10000)
+            score = score.masked_fill(mask == 0, -float('inf')
             
         # Softmax
         score = self.softmax(score)
