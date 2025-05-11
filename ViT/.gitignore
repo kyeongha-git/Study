@@ -1,0 +1,6 @@
+jupyter_8888.log
+*.log
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.ipynb
