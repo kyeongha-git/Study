@@ -26,5 +26,5 @@ class PositionalEncoding(nn.Module):
         batch_size, seq_len = x.size()
 
         # 입력 데이터의 길이에 맞추어 잘라서 리턴.
-        return self.encoding[:seq_len, :]
-
+        pos = self.encoding[:seq_len, :].unsqueeze(0).repeat(batch_size, 1, 1)
+        return pos
