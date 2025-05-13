@@ -18,7 +18,7 @@ class MLPHead(nn.Module):
         self.linear2 = nn.Linear(ffn_hidden, n_classes)
 
     def forward(self, x):
-        x = self.norm(x[:, 0, :]).unsqueeze(1) #cls_token 추출
+        x = self.norm(x[:, 0, :].unsqueeze(1)) # cls_token 추출 후 layer norm
         x = self.linear1(x)
         x = self.gelu(x)
         x = self.dropout(x)
