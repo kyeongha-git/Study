@@ -7,7 +7,7 @@
 import torch.nn
 
 class PositionwiseFeedForward(nn.Module):
-
+    # input: [batch_size, len, d_model], output: [batch_size, len, d_model]
     def __init__(self, d_model, hidden, drop_prob):
         super(PositionwiseFeedForward, self).__init__()
         self.linear1 = nn.Linear(d_model, hidden)
