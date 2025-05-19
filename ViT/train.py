@@ -8,7 +8,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from models.vit import ViT
-from data_loader import get_coco_dataloader
+from data_loader import get_cifar10_dataloader
 from utils import train_epoch, evaluate
 
 # 환경 설정
@@ -19,7 +19,7 @@ print(f"Using device: {device}")
 train_loader, val_loader = get_cifar10_dataloader(batch_size=32)
 
 # 모델 초기화
-model = ViT(img_size=224, patch_size=16, d_model=768, num_classes=80, 
+model = ViT(img_size=224, patch_size=16, d_model=768, num_classes=10, 
             ffn_hidden=3072, n_head=12, n_layers=12, drop_prob=0.1, device=device).to(device)
 
 # 손실 함수와 최적화기
