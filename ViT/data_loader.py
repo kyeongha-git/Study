@@ -6,33 +6,34 @@
 
 import torch
 from torch.utils.data import DataLoader
-from torchvision import transforms, datasets
+from torchvision import datasets, transforms
 
-def get_coco_dataloader(data_dir, batch_size=32, num_workers=4):
+def get_cifar10_dataloader(batch_size=32, num_workers=4):
     # Transformations for training and validation
     train_transforms = transforms.Compose([
-        transforms.Resize((224, 224)),
         transforms.RandomHorizontalFlip(),
+        transforms.RandomCrop(32, padding=4),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))
     ])
 
     val_transforms = transforms.Compose([
-        transforms.Resize((224, 224)),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))
     ])
 
-    # COCO Dataset
-    train_dataset = datasets.CocoDetection(
-        root=f"{data_dir}/train2017",
-        annFile=f"{data_dir}/annotations/instances_train2017.json",
+    # CIFAR-10 Dataset
+    train_dataset = datasets.CIFAR10(
+        root="./data",
+        train=True,
+        download=True,  # 자동 다운로드
         transform=train_transforms
     )
 
-    val_dataset = datasets.CocoDetection(
-        root=f"{data_dir}/val2017",
-        annFile=f"{data_dir}/annotations/instances_val2017.json",
+    val_dataset = datasets.CIFAR10(
+        root="./data",
+        train=False,
+        download=True,  # 자동 다운로드
         transform=val_transforms
     )
 
