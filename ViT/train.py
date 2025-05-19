@@ -16,7 +16,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # 데이터 로더
-train_loader, val_loader = get_coco_dataloader(data_dir="/path/to/coco", batch_size=32)
+train_loader, val_loader = get_cifar10_dataloader(batch_size=32)
 
 # 모델 초기화
 model = ViT(img_size=224, patch_size=16, d_model=768, num_classes=80, 
