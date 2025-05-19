@@ -33,7 +33,7 @@ model = ViT(img_size=224, patch_size=16, d_model=768, num_classes=80,
 model.load_state_dict(torch.load("vit_epoch_10.pth"))
 
 # 데이터 로더
-_, val_loader = get_coco_dataloader(data_dir="/path/to/coco", batch_size=32)
+_, val_loader = get_cifar10_dataloader(batch_size=32)
 
 # 테스트
 test_model(model, val_loader, device)
