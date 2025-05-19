@@ -6,7 +6,7 @@
 
 import torch
 from models.vit import ViT
-from data_loader import get_coco_dataloader
+from data_loader import get_cifar10_dataloader
 
 def test_model(model, dataloader, device):
     model.eval()
@@ -28,7 +28,7 @@ def test_model(model, dataloader, device):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 모델 초기화 및 로드
-model = ViT(img_size=224, patch_size=16, d_model=768, num_classes=80, 
+model = ViT(img_size=224, patch_size=16, d_model=768, num_classes=10, 
             ffn_hidden=3072, n_head=12, n_layers=12, drop_prob=0.1, device=device).to(device)
 model.load_state_dict(torch.load("vit_epoch_10.pth"))
 
