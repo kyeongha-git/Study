@@ -11,10 +11,11 @@ def train_epoch(model, dataloader, criterion, optimizer, device):
     model.train()
     running_loss = 0.0
     correct = 0
+    total = 0
 
-    for images, targets in tqdm(dataloader, desc="Training", leave=False):
+    for images, labels in tqdm(dataloader, desc="Training", leave=False):
         images = images.to(device)
-        labels = torch.tensor([t[0]['category_id'] for t in targets]).to(device)
+        labels = labels.to(device)  # CIFAR-10의 labels는 이미 정수형
 
         optimizer.zero_grad()
         outputs = model(images)
@@ -25,20 +26,22 @@ def train_epoch(model, dataloader, criterion, optimizer, device):
         running_loss += loss.item()
         _, preds = torch.max(outputs, 1)
         correct += torch.sum(preds == labels).item()
+        total += len(labels)
 
     epoch_loss = running_loss / len(dataloader)
-    epoch_acc = correct / len(dataloader.dataset)
+    epoch_acc = correct / total
     return epoch_loss, epoch_acc
 
 def evaluate(model, dataloader, criterion, device):
     model.eval()
     running_loss = 0.0
     correct = 0
+    total = 0
 
     with torch.no_grad():
-        for images, targets in tqdm(dataloader, desc="Validating", leave=False):
+        for images, labels in tqdm(dataloader, desc="Validating", leave=False):
             images = images.to(device)
-            labels = torch.tensor([t[0]['category_id'] for t in targets]).to(device)
+            labels = labels.to(device)  # CIFAR-10의 labels는 이미 정수형
 
             outputs = model(images)
             loss = criterion(outputs, labels)
@@ -46,8 +49,8 @@ def evaluate(model, dataloader, criterion, device):
             running_loss += loss.item()
             _, preds = torch.max(outputs, 1)
             correct += torch.sum(preds == labels).item()
+            total += len(labels)
 
     epoch_loss = running_loss / len(dataloader)
-    epoch_acc = correct / len(dataloader.dataset)
+    epoch_acc = correct / total
     return epoch_loss, epoch_acc
-
