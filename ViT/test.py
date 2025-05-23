@@ -5,7 +5,11 @@
 
 
 import torch
+<<<<<<< Updated upstream
 from models.vit import ViT
+=======
+from models.model.vit import ViT
+>>>>>>> Stashed changes
 from data_loader import get_cifar10_dataloader
 
 def test_model(model, dataloader, device):
@@ -13,9 +17,9 @@ def test_model(model, dataloader, device):
     correct = 0
 
     with torch.no_grad():
-        for images, targets in tqdm(dataloader, desc="Testing", leave=False):
+        for images, labels in tqdm(dataloader, desc="Testing", leave=False):
             images = images.to(device)
-            labels = torch.tensor([t[0]['category_id'] for t in targets]).to(device)
+            labels = labels.to(device)  # 수정 부분
 
             outputs = model(images)
             _, preds = torch.max(outputs, 1)
@@ -37,4 +41,3 @@ _, val_loader = get_cifar10_dataloader(batch_size=32)
 
 # 테스트
 test_model(model, val_loader, device)
-

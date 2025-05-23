@@ -5,8 +5,8 @@
 
 
 import torch
-import torch.nn
-from models.layers.layer_norm import LayerNorm
+import torch.nn as nn
+from .layer_norm import LayerNorm
 
 class MLPHead(nn.Module):
     def __init__(self, d_model, ffn_hidden, n_classes, drop_prob):
@@ -18,7 +18,7 @@ class MLPHead(nn.Module):
         self.linear2 = nn.Linear(ffn_hidden, n_classes)
 
     def forward(self, x):
-        x = self.norm(x[:, 0, :]) # cls_token 추출 후 layer norm
+        x = self.norm(x[:, 0])
         x = self.linear1(x)
         x = self.gelu(x)
         x = self.dropout(x)

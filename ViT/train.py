@@ -7,7 +7,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from models.vit import ViT
+from models.model.vit import ViT
 from data_loader import get_cifar10_dataloader
 from utils import train_epoch, evaluate
 
@@ -39,4 +39,3 @@ for epoch in range(num_epochs):
 
     # 모델 저장
     torch.save(model.state_dict(), f"vit_epoch_{epoch+1}.pth")
-

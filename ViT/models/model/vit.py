@@ -5,10 +5,12 @@
 
 
 import torch
-import torch.nn
-from models.blocks.encoder_laeyr import EncoderLayer
-from models.embedding.patch_embeddings import PatchEmbedding
-from models.layers.mlp_head import MLPHead
+import torch.nn as nn
+import sys
+import os
+from .encoder_layer import EncoderLayer
+from .embedding.patch_embeddings import PatchEmbedding
+from .layers.mlp_head import MLPHead
 
 class ViT(nn.Module):
 

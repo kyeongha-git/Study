@@ -5,7 +5,7 @@
 
 
 import torch
-from torch import nn
+import torch.nn as nn
 
 class LayerNorm(nn.Module):
     def __init__(self, d_model, eps=1e-12):

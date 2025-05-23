@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-import torch.nn
+import torch.nn as nn
 
 class PositionwiseFeedForward(nn.Module):
 

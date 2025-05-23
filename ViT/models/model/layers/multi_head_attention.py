@@ -4,9 +4,9 @@
 # In[ ]:
 
 
-import torch.nn
+import torch.nn as nn
 
-from models.layers.scale_dot_product_attention import ScaleDotProductAttention
+from .scale_dot_product_Attention import ScaleDotProductAttention
 
 class MultiHeadAttention(nn.Module):
 

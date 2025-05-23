@@ -5,7 +5,7 @@
 
 
 import math
-import torch.nn
+import torch.nn as nn
 
 class ScaleDotProductAttention(nn.Module):
 
