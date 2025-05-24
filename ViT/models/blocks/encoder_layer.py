@@ -7,9 +7,9 @@
 import torch
 import torch.nn as nn
 import os
-from .layers.layer_norm import LayerNorm
-from .layers.multi_head_attention import MultiHeadAttention
-from .layers.position_wise_feed_forward import PositionwiseFeedForward
+from models.layers.layer_norm import LayerNorm
+from models.layers.multi_head_attention import MultiHeadAttention
+from models.layers.position_wise_feed_forward import PositionwiseFeedForward
 
 class EncoderLayer(nn.Module):
     def __init__(self, d_model, ffn_hidden, n_head, drop_prob):

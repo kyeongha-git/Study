@@ -6,7 +6,7 @@
 
 import torch
 import torch.nn as nn
-from .layer_norm import LayerNorm
+from models.layers.layer_norm import LayerNorm
 
 class MLPHead(nn.Module):
     def __init__(self, d_model, ffn_hidden, n_classes, drop_prob):

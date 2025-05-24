@@ -8,8 +8,8 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from models.model.vit import ViT
-from data_loader import get_cifar10_dataloader
-from utils import train_epoch, evaluate
+from util.data_loader import get_cifar10_dataloader
+from util.utils import train_epoch, evaluate
 
 # 환경 설정
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
