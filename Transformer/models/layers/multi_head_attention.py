@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+ #!/usr/bin/env python
 # coding: utf-8
 
 # In[ ]:
 
 
-import torch.nn
+import torch.nn as nn
 
 from models.layers.scale_dot_product_attention import ScaleDotProductAttention
 

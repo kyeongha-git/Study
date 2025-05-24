@@ -1,0 +1,13 @@
+__pycache__/
+.data/
+*.ipynb_checkpoints/
+*.pth
+*.pt
+*.log
+env/
+.venv/
+.idea/
+.DS_Store
+saved/
+result/
+

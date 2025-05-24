@@ -5,7 +5,7 @@
 
 
 import torch
-import torch.nn
+import torch.nn as nn
 from models.blocks.encoder_layer import EncoderLayer
 from models.embedding.transformer_embedding import TransformerEmbedding
 
@@ -24,9 +24,11 @@ class Encoder(nn.Module):
                                                    n_head = n_head,
                                                    drop_prob = drop_prob)
                                       for _ in range(n_layers)]) # n_layers 만큼 Encoder 반복 생성.
+        self.device = device
 
     def forward(self, x, src_mask):
         # Data Processing
+        x = x.to(self.device)
         x = self.emb(x)
 
         # Encoder

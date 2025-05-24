@@ -5,7 +5,7 @@
 
 
 import torch
-import torch.nn
+import torch.nn as nn
 from models.blocks.decoder_layer import DecoderLayer
 from models.embedding.transformer_embedding import TransformerEmbedding
 
@@ -26,7 +26,7 @@ class Decoder(nn.Module):
                                       for _ in range(n_layers)]) # n_layers 만큼 Encoder 반복 생성.
         
         # 마지막에 출력 차원과 맞추기 위하여 dec_voc_size로 출력 차원을 맞춤.
-        self.linear = nn.Linear(d_mdoel, dec_voc_size)
+        self.linear = nn.Linear(d_model, dec_voc_size)
         self.softmax = nn.Softmax(dim = -1)
         
     def forward(self, trg, enc_src, trg_mask, src_mask):

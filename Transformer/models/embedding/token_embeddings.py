@@ -5,7 +5,7 @@
 
 
 import torch
-import torch.nn
+import torch.nn as nn
 
 class TokenEmbedding(nn.Embedding):
     # input: (batch_size, seq_len), output: (batch_size, seq_len, d_model)

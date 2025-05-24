@@ -5,7 +5,7 @@
 
 
 import torch
-import torch.nn
+import torch.nn as nn
 from models.embedding.positional_encoding import PositionalEncoding
 from models.embedding.token_embeddings import TokenEmbedding
 

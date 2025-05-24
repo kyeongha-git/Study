@@ -5,7 +5,8 @@
 
 
 import math
-import torch.nn
+import torch
+import torch.nn as nn
 
 class ScaleDotProductAttention(nn.Module):
 
@@ -27,7 +28,7 @@ class ScaleDotProductAttention(nn.Module):
         # mask (opt.)
         # masked_fill은 삼각행렬을 만들고 0의 위치에 있는 어텐션 함수 행렬의 값을 -10000으로 대체하는 것.
         if mask is not None:
-            score = score.masked_fill(mask == 0, -float('inf')
+            score = score.masked_fill(mask == 0, -float('inf'))
             
         # Softmax
         score = self.softmax(score)
