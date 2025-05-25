@@ -8,8 +8,8 @@ This repository contains the code implementations(Pytorch) of the research paper
 - 🗒️ Annotations and Explanations
 
 ### 📖 Paper List
-- Attention is All You Need (Transformer)
-- An Image Is Worth 16 X 16 Words: Transformers For Image Recognition At Scale (Vision Transformer)
+- [Attention is All You Need](http://arxiv.org/abs/1706.03762) (Transformer)
+- [An Image Is Worth 16 X 16 Words: Transformers For Image Recognition At Scale](http://arxiv.org/abs/2010.11929) (Vision Transformer)
 
 ### 💻 Code Implementations
 - [Attention is All You Need](https://github.com/kyeongha-git/Study/tree/main/Transformer) (Training Dataset: Multi30k)
