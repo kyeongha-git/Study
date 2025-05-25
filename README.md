@@ -1,6 +1,6 @@
 # 📚 Paper Review and Implementation
 
-This repository contains the code implementations of the research papers I have read. Along with the code, I will also include detailed comments and annotations to explain my understanding of the concepts and methodologies presented in each paper. My goal is to provide not only the original implementations but also insights and clarifications based on my personal interpretations.
+This repository contains the code implementations(Pytorch) of the research papers I have read. Along with the code, I will also include detailed comments and annotations to explain my understanding of the concepts and methodologies presented in each paper. My goal is to provide not only the original implementations but also insights and clarifications based on my personal interpretations.
 
 ## 📝 Contents  
 - 📖 Paper List  
