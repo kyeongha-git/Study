@@ -1,6 +1,6 @@
 __pycache__/
 .data/
-*.ipynb_checkpoints/
+.ipynb_checkpoints/
 *.pth
 *.pt
 *.log
