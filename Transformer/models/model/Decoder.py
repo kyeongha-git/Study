@@ -27,6 +27,7 @@ class Decoder(nn.Module):
         
         # 마지막에 출력 차원과 맞추기 위하여 dec_voc_size로 출력 차원을 맞춤.
         self.linear = nn.Linear(d_model, dec_voc_size)
+        self.linear.weight = self.emb.tok_emb.weight  #weight sharing
         self.softmax = nn.Softmax(dim = -1)
         
     def forward(self, trg, enc_src, trg_mask, src_mask):
