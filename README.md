@@ -10,12 +10,16 @@ This repository contains the code implementations(Pytorch) of the research paper
 ### 📖 Paper List
 - [Attention is All You Need](http://arxiv.org/abs/1706.03762) (Transformer)
 - [An Image Is Worth 16 X 16 Words: Transformers For Image Recognition At Scale](http://arxiv.org/abs/2010.11929) (Vision Transformer)
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) (BERT)
 
 ### 💻 Code Implementations
 - [Attention is All You Need](https://github.com/kyeongha-git/Study/tree/main/Transformer) (Training Dataset: Multi30k)
 - [An Image Is Worth 16 X 16 Words: Transformers For Image Recognition At Scale](https://github.com/kyeongha-git/Study/tree/main/ViT) (Training Dataset: CIFAR-10)
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding]()
 
 ### 🗒️ Annotations and Explanations (Tistory - Korean)
 🌐 [Attention is All You Need](https://kyeongha-blog.tistory.com/entry/Transformer-Attention-Is-All-You-Need)
 
 🌐 [An Image Is Worth 16 X 16 Words: Transformers For Image Recognition At Scale](https://kyeongha-blog.tistory.com/entry/Vision-Transformer-AN-IMAGE-IS-WORTH-16X16-WORDS-TRANSFORMERS-FOR-IMAGE-RECOGNITION-AT-SCALE))
+
+🌐 [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://kyeongha-blog.tistory.com/entry/LLM-BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%BC%BC%EA%BC%BC%ED%9E%88))
