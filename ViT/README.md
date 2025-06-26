@@ -1,8 +1,5 @@
 # 👋 Introduction
 
-본 논문리뷰는 수원대학교 데이터과학부 김진현 교수님과 함께 스터디한 내용을 내포하고 있습니다.
-모든 내용은 황경하가 작성하였으며, 발표를 통해 피드백을 받으며 내용을 보충하였습니다.
-
 해당 논문은 AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE라는 논문이며, Transformer를 Computer Vision 분야에 접목하여 우수한 성능을 보인 논문입니다.
 Transformer에 대한 내용을 첨부하여 이해가 쉽도록 하였으며, 비교를 통해 ViT가 어떤 구조로 되어있는지를 설명합니다.
 
