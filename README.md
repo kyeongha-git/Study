@@ -3,6 +3,9 @@
 ![Image](https://github.com/user-attachments/assets/fff6081e-1eb1-4289-b7c3-c7e3c80311d9)
 This repository contains the code implementations(Pytorch) of the research papers I have read. Along with the code, I will also include detailed comments and annotations to explain my understanding of the concepts and methodologies presented in each paper. My goal is to provide not only the original implementations but also insights and clarifications based on my personal interpretations.
 
+본 논문리뷰는 수원대학교 데이터과학부 김진현 교수님과 함께 스터디한 내용을 내포하고 있습니다.
+모든 내용은 황경하가 작성하였으며, 발표를 통해 피드백을 받으며 내용을 보충하였습니다.
+
 ## 📝 Contents  
 - 📖 Paper List  
   - 💻 Code Implementations
