@@ -26,7 +26,7 @@ Vision Transformer와 함께 적혀있으며, 비교를 통해 설명합니다.
 
 ![Image](https://github.com/user-attachments/assets/6f625a50-ec18-4fde-83c4-8ee8b858a1eb)
 
-![Image](https://github.com/user-attachments/assets/de3a4181-2c53-4f29-968e-e5c1a033ba6b)
+![2025-06-26 18;33;22](https://github.com/user-attachments/assets/bc625493-d03f-46d5-8b83-671b386b4460)
 
 ![Image](https://github.com/user-attachments/assets/fa4b272d-fdf2-4f11-9c6e-630abcb33f29)
 
