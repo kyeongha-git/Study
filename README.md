@@ -25,3 +25,8 @@ This repository contains the code implementations(Pytorch) of the research paper
   - [code](https://github.com/kyeongha-git/Study/tree/main/BERT-pytorch)
   - [Explanations](https://kyeongha-blog.tistory.com/entry/LLM-BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%BC%BC%EA%BC%BC%ED%9E%88)
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/BERT-pytorch)(Please refer to the README file)
+- [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+  - [Presentation]()
+- [Language Models are Few-Shot Learners](https://papers.nips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
+  - [Explanations](https://kyeongha-blog.tistory.com/entry/GPT-3-Language-Models-are-Few-Shot-Learners-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%BC%BC%EA%BC%BC%ED%9E%88)
+  - [Presentation]() 
