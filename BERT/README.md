@@ -1,120 +1,55 @@
-# BERT-pytorch
+# 👋 Introduction
 
-[![LICENSE](https://img.shields.io/github/license/codertimo/BERT-pytorch.svg)](https://github.com/codertimo/BERT-pytorch/blob/master/LICENSE)
-![GitHub issues](https://img.shields.io/github/issues/codertimo/BERT-pytorch.svg)
-[![GitHub stars](https://img.shields.io/github/stars/codertimo/BERT-pytorch.svg)](https://github.com/codertimo/BERT-pytorch/stargazers)
-[![CircleCI](https://circleci.com/gh/codertimo/BERT-pytorch.svg?style=shield)](https://circleci.com/gh/codertimo/BERT-pytorch)
-[![PyPI](https://img.shields.io/pypi/v/bert-pytorch.svg)](https://pypi.org/project/bert_pytorch/)
-[![PyPI - Status](https://img.shields.io/pypi/status/bert-pytorch.svg)](https://pypi.org/project/bert_pytorch/)
-[![Documentation Status](https://readthedocs.org/projects/bert-pytorch/badge/?version=latest)](https://bert-pytorch.readthedocs.io/en/latest/?badge=latest)
+해당 논문은 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding 라는 논문입니다.
+BERT 모델은 Transformer의 Encoder 구조를 활용해 만든 Language Representation Model로, 두 가지 태스크로 Pre-Training을 한 모델입니다.
+여러 언어 태스크에서 우수한 성능을 보입니다.
 
-Pytorch implementation of Google AI's 2018 BERT, with simple annotation
+# 🚀 Presentation
 
-> BERT 2018 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
-> Paper URL : https://arxiv.org/abs/1810.04805
+![Image](https://github.com/user-attachments/assets/8122a175-2590-4207-83b4-9fac9539cdec)
 
+![Image](https://github.com/user-attachments/assets/f4a2d3af-63e3-4a87-a0db-7c7f28490568)
 
-## Introduction
+![Image](https://github.com/user-attachments/assets/8987211b-0e5c-485c-abb0-adf02875edc7)
 
-Google AI's BERT paper shows the amazing result on various NLP task (new 17 NLP tasks SOTA), 
-including outperform the human F1 score on SQuAD v1.1 QA task. 
-This paper proved that Transformer(self-attention) based encoder can be powerfully used as 
-alternative of previous language model with proper language model training method. 
-And more importantly, they showed us that this pre-trained language model can be transfer 
-into any NLP task without making task specific model architecture.
+![Image](https://github.com/user-attachments/assets/5d7de313-398c-49b1-97a7-9e1b6fca4ea5)
 
-This amazing result would be record in NLP history, 
-and I expect many further papers about BERT will be published very soon.
+![Image](https://github.com/user-attachments/assets/77405a69-114d-4f0c-9c9b-dfa85fc0f92c)
 
-This repo is implementation of BERT. Code is very simple and easy to understand fastly.
-Some of these codes are based on [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+![Image](https://github.com/user-attachments/assets/614c3e7c-8f1e-4d13-86c5-7b96e263f9eb)
 
-Currently this project is working on progress. And the code is not verified yet.
+![Image](https://github.com/user-attachments/assets/29dec76a-d2c0-4ba4-b15b-ab6b44ae3fc4)
 
-## Installation
-```
-pip install bert-pytorch
-```
+![Image](https://github.com/user-attachments/assets/9d98dd5f-6675-465d-b599-249d0abeb840)
 
-## Quickstart
+![Image](https://github.com/user-attachments/assets/f2c7965f-42f4-454d-b8bd-51f5c00f9be3)
 
-**NOTICE : Your corpus should be prepared with two sentences in one line with tab(\t) separator**
+![Image](https://github.com/user-attachments/assets/015bac6b-2976-47b3-9a3b-921d01afb3b9)
 
-### 0. Prepare your corpus
-```
-Welcome to the \t the jungle\n
-I can stay \t here all night\n
-```
+![Image](https://github.com/user-attachments/assets/72eeb445-c348-45d9-8406-76591ed90c32)
 
-or tokenized corpus (tokenization is not in package)
-```
-Wel_ _come _to _the \t _the _jungle\n
-_I _can _stay \t _here _all _night\n
-```
+![Image](https://github.com/user-attachments/assets/1369f975-dbd0-4c4f-a977-5a3642dea96e)
 
+![Image](https://github.com/user-attachments/assets/280192b0-38bb-4362-b9e2-b738a6a4c94e)
 
-### 1. Building vocab based on your corpus
-```shell
-bert-vocab -c data/corpus.small -o data/vocab.small
-```
+![Image](https://github.com/user-attachments/assets/10e02b45-ca33-495e-aa87-476347bb3260)
 
-### 2. Train your own BERT model
-```shell
-bert -c data/corpus.small -v data/vocab.small -o output/bert.model
-```
+![Image](https://github.com/user-attachments/assets/2ea00269-4b33-4291-a66a-bf4f0162bacf)
 
-## Language Model Pre-training
+![Image](https://github.com/user-attachments/assets/15602335-7808-49e7-b236-5019e77036b3)
 
-In the paper, authors shows the new language model training methods, 
-which are "masked language model" and "predict next sentence".
+![Image](https://github.com/user-attachments/assets/222a5754-08f4-4d8f-a6c0-38053bb47714)
 
+![Image](https://github.com/user-attachments/assets/1e8365ce-efb4-4530-8773-16f983266e0f)
 
-### Masked Language Model 
+![Image](https://github.com/user-attachments/assets/ecc0aa21-5a8e-44fe-b43a-eeb6d7045c84)
 
-> Original Paper : 3.3.1 Task #1: Masked LM 
+![Image](https://github.com/user-attachments/assets/6562031c-72c3-4085-aac6-ccdd90804c6d)
 
-```
-Input Sequence  : The man went to [MASK] store with [MASK] dog
-Target Sequence :                  the                his
-```
+![Image](https://github.com/user-attachments/assets/f6f13df7-46d3-4a09-ab7f-cf7bd564f9eb)
 
-#### Rules:
-Randomly 15% of input token will be changed into something, based on under sub-rules
+![Image](https://github.com/user-attachments/assets/f89b2765-1810-4eb0-80f7-7895bfa96f11)
 
-1. Randomly 80% of tokens, gonna be a `[MASK]` token
-2. Randomly 10% of tokens, gonna be a `[RANDOM]` token(another word)
-3. Randomly 10% of tokens, will be remain as same. But need to be predicted.
+![Image](https://github.com/user-attachments/assets/3cd04a72-d397-4ca1-bab4-d3c001edb491)
 
-### Predict Next Sentence
-
-> Original Paper : 3.3.2 Task #2: Next Sentence Prediction
-
-```
-Input : [CLS] the man went to the store [SEP] he bought a gallon of milk [SEP]
-Label : Is Next
-
-Input = [CLS] the man heading to the store [SEP] penguin [MASK] are flight ##less birds [SEP]
-Label = NotNext
-```
-
-"Is this sentence can be continuously connected?"
-
- understanding the relationship, between two text sentences, which is
-not directly captured by language modeling
-
-#### Rules:
-
-1. Randomly 50% of next sentence, gonna be continuous sentence.
-2. Randomly 50% of next sentence, gonna be unrelated sentence.
-
-
-## Author
-Junseong Kim, Scatter Lab (codertimo@gmail.com / junseong.kim@scatterlab.co.kr)
-
-## License
-
-This project following Apache 2.0 License as written in LICENSE file
-
-Copyright 2018 Junseong Kim, Scatter Lab, respective BERT contributors
-
-Copyright (c) 2018 Alexander Rush : [The Annotated Trasnformer](https://github.com/harvardnlp/annotated-transformer)
+![Image](https://github.com/user-attachments/assets/b0afffd9-95c9-4446-a38e-920aba733d65)
