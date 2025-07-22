@@ -13,6 +13,8 @@ This repository contains the code implementations(Pytorch) of the research paper
   - 📈 PPT (Presentation)
 
 ### 📖 Paper List
+
+## LLM
 - [Attention is All You Need](http://arxiv.org/abs/1706.03762) (Transformer)
   - [code](https://github.com/kyeongha-git/Study/tree/main/Transformer) (Training Dataset: Multi30k)
   - [Explanations](https://kyeongha-blog.tistory.com/entry/Transformer-Attention-Is-All-You-Need)
@@ -30,3 +32,11 @@ This repository contains the code implementations(Pytorch) of the research paper
 - [Language Models are Few-Shot Learners](https://papers.nips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
   - [Explanations](https://kyeongha-blog.tistory.com/entry/GPT-3-Language-Models-are-Few-Shot-Learners-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%BC%BC%EA%BC%BC%ED%9E%88)
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/GPT-3)(Please refer to the README file)
+
+
+## Basic CNN & SSL
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (ResNet)
+  - [Presentation]()
+
+- [UNSUPERVISED REPRESENTATION LEARNING BY PREDICTING IMAGE ROTATIONS](http://arxiv.org/abs/1803.07728)
+  - [Presentation]()
