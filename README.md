@@ -36,7 +36,7 @@ This repository contains the code implementations(Pytorch) of the research paper
 
 ## Basic CNN & SSL
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (ResNet)
-  - [Presentation]()
+  - [Presentation]()(Please refer to the README file)
 
 - [UNSUPERVISED REPRESENTATION LEARNING BY PREDICTING IMAGE ROTATIONS](http://arxiv.org/abs/1803.07728)
-  - [Presentation]()
+  - [Presentation]()(Please refer to the README file)
