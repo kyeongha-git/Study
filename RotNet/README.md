@@ -15,7 +15,7 @@
 <img width="1920" height="1080" alt="슬라이드6" src="https://github.com/user-attachments/assets/c7757c44-40ad-4984-a690-9e32161e7488" />
 <img width="1920" height="1080" alt="슬라이드7" src="https://github.com/user-attachments/assets/a694423c-fb23-413c-a526-d4531de15567" />
 <img width="1920" height="1080" alt="슬라이드8" src="https://github.com/user-attachments/assets/ac74f891-98e4-4078-b9c7-155ef4cdc7e8" />
-<img width="1920" height="1080" alt="슬라이드9" src="https://github.com/user-attachments/assets/009e094e-344c-4036-860f-e8c6afe56b77" />
+<img width="1920" height="1080" alt="슬라이드9" src="https://github.com/user-attachments/assets/9dac1ff8-bd66-4c73-be48-55ed9df70ccc" />
 <img width="1920" height="1080" alt="슬라이드10" src="https://github.com/user-attachments/assets/59b38f4d-0f2b-4921-a324-22426e0f3741" />
 <img width="1920" height="1080" alt="슬라이드11" src="https://github.com/user-attachments/assets/43eb1671-f6ab-46a4-be25-532f3905cb57" />
 <img width="1920" height="1080" alt="슬라이드12" src="https://github.com/user-attachments/assets/a7695152-4600-4d29-ae98-89af5ce826b5" />
