@@ -33,7 +33,7 @@ This repository contains the code implementations(Pytorch) of the research paper
   - [Explanations](https://kyeongha-blog.tistory.com/entry/GPT-3-Language-Models-are-Few-Shot-Learners-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%BC%BC%EA%BC%BC%ED%9E%88)
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/GPT-3)(Please refer to the README file)
 - [Scaling Laws for Neural Language Models](http://arxiv.org/abs/2001.08361) (Scailng Law)
-  - [Presentation]()(Please refer to the README file)
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/Scailng%20Law)(Please refer to the README file)
 
 ## Basic CNN
 - CNN Case Study (AlexNet, VGG, GoogLeNet)
