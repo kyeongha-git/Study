@@ -34,9 +34,14 @@ This repository contains the code implementations(Pytorch) of the research paper
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/GPT-3)(Please refer to the README file)
 
 
-## Basic CNN & SSL
+## Basic CNN
+- [CNN Case Study (AlexNet, VGG, GoogLeNet)]
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/CNN%20(AlexNet%2CVGG%2CGoogLeNet))(Please refer to the README file)
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (ResNet)
-  - [Presentation]()(Please refer to the README file)
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/ResNet)(Please refer to the README file)
 
+## SSL (self-supervised Learning)
 - [UNSUPERVISED REPRESENTATION LEARNING BY PREDICTING IMAGE ROTATIONS](http://arxiv.org/abs/1803.07728)
-  - [Presentation]()(Please refer to the README file)
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/RotNet)(Please refer to the README file)
+- [A Simple Framework for Contrastive Learning of Visual Representations](http://arxiv.org/abs/2002.05709)
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SimCLR)(Please refer to the README file)
