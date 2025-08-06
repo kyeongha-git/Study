@@ -33,7 +33,8 @@ GoogLeNet의 전체적인 아키텍처를 담고 있으며 이를 통해 CNN의 
 <img width="1920" height="1080" alt="024" src="https://github.com/user-attachments/assets/ae575cda-9295-4905-a70c-5eae690579f4" />
 <img width="1920" height="1080" alt="025" src="https://github.com/user-attachments/assets/5e7c6f8f-1af1-4680-8418-132b1dc79ff0" />
 <img width="1920" height="1080" alt="026" src="https://github.com/user-attachments/assets/db8f353d-3c85-4c8a-8aa3-b9dfdf367ae0" />
-
+<img width="1920" height="1080" alt="034" src="https://github.com/user-attachments/assets/424be04f-0a14-408c-a073-fac63cef366e" />
+<img width="1920" height="1080" alt="035" src="https://github.com/user-attachments/assets/9d69a2a5-8d43-4abf-9741-e243042e82c2" />
 
 
 
