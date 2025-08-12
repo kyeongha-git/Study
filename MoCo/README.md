@@ -16,3 +16,23 @@ MoCo는 대조학습(contrastive learning)에서 성능을 좌우하는 두 요�
 결과적으로, MoCo는 라벨 없이 학습한 표현만으로 **선형 분류(linear eval)**와 검출/세그멘테이션 등 Downstream Transfer에서 경쟁적 혹은 상회하는 성능을 보이며, 대규모 배치 없이도 강력한 대조학습을 가능하게 합니다. 📈✨
 
 # 🚀 Presentation
+
+<img width="1920" height="1080" alt="001" src="https://github.com/user-attachments/assets/10714b00-3e27-4554-8f84-12fa821891de" />
+<img width="1920" height="1080" alt="002" src="https://github.com/user-attachments/assets/37b1ab75-aa79-43ca-9d3e-70d592f91789" />
+<img width="1920" height="1080" alt="003" src="https://github.com/user-attachments/assets/6457815b-a311-460a-bcbb-1cd81935a571" />
+<img width="1920" height="1080" alt="004" src="https://github.com/user-attachments/assets/7192022d-e911-4855-bb9d-d8f56625e46c" />
+<img width="1920" height="1080" alt="005" src="https://github.com/user-attachments/assets/3fe6d78c-3736-4a62-87da-c14043735f73" />
+<img width="1920" height="1080" alt="006" src="https://github.com/user-attachments/assets/982f3b89-1888-4e74-b7da-3c46126ed531" />
+<img width="1920" height="1080" alt="007" src="https://github.com/user-attachments/assets/9f4e7ca9-933c-4d6c-b345-bd8b396bf548" />
+<img width="1920" height="1080" alt="008" src="https://github.com/user-attachments/assets/ca76a473-4883-4f35-bf6e-0af1cee268db" />
+<img width="1920" height="1080" alt="009" src="https://github.com/user-attachments/assets/bd27d570-63f9-4135-a9fd-df31612ce61d" />
+<img width="1920" height="1080" alt="010" src="https://github.com/user-attachments/assets/e9ff20e6-cf7e-4ab3-8756-8afd5dd3c983" />
+<img width="1920" height="1080" alt="011" src="https://github.com/user-attachments/assets/dbb7a240-15aa-4bb7-851c-752eb5613db6" />
+<img width="1920" height="1080" alt="012" src="https://github.com/user-attachments/assets/e397314f-b872-4ba8-888b-5b3e8634df85" />
+<img width="1920" height="1080" alt="013" src="https://github.com/user-attachments/assets/cab9cf4c-925b-48ce-a280-4def72d4c80e" />
+<img width="1920" height="1080" alt="014" src="https://github.com/user-attachments/assets/e4d837bf-ed53-4aa5-89ff-7febc33ca000" />
+<img width="1920" height="1080" alt="015" src="https://github.com/user-attachments/assets/40889c6f-7089-4f83-819c-f09274a343b0" />
+<img width="1920" height="1080" alt="016" src="https://github.com/user-attachments/assets/fa60854a-5315-47f4-8d32-60e8f430b70a" />
+<img width="1920" height="1080" alt="017" src="https://github.com/user-attachments/assets/1eafd6c0-683a-4162-a956-5e4fe9b5e752" />
+<img width="1920" height="1080" alt="018" src="https://github.com/user-attachments/assets/12cfadc1-c49b-4347-ba68-135f4dbbc366" />
+<img width="1920" height="1080" alt="019" src="https://github.com/user-attachments/assets/93a7c58a-355d-40ea-badc-028d04b7d3f1" />
