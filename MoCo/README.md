@@ -2,7 +2,7 @@
 
 본 발표는 FAIR(Facebook AI Research)의 MoCo(Momentum Contrast for Unsupervised Visual Representation Learning)를 다룹니다.
 
-MoCo는 **대조학습(contrastive learning)**에서 성능을 좌우하는 두 요소—**큰 사전(dictionary)**과 키 임베딩의 일관성(consistency)—을 동시에 달성하기 위해 FIFO 큐 + 모멘텀 인코더를 도입한 방법입니다. 🔧🧠
+MoCo는 대조학습(contrastive learning)에서 성능을 좌우하는 두 요소—큰 사전(dictionary)과 키 임베딩의 일관성(consistency)—을 동시에 달성하기 위해 FIFO 큐 + 모멘텀 인코더를 도입한 방법입니다. 🔧🧠
 
 - 문제의식: 대조학습은 많은 Negative 샘플이 필요하지만, 일반적으로 미니배치 크기에 제약되어 사전이 작거나, 메모리뱅크를 쓰면 키 분포 불일치로 학습이 불안정해집니다.
 
