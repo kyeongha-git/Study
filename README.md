@@ -46,3 +46,7 @@ This repository contains the code implementations(Pytorch) of the research paper
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/RotNet)(Please refer to the README file)
 - [A Simple Framework for Contrastive Learning of Visual Representations](http://arxiv.org/abs/2002.05709) (SimCLR)
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SimCLR)(Please refer to the README file)
+- [Momentum Contrast for Unsupervised Visual Representation Learning](http://arxiv.org/abs/1911.05722) (MoCo)
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/MoCo)((Please refer to the README file)
+- [Learning Transferable Visual Models From Natural Language Supervision](http://arxiv.org/abs/2103.00020) (CLIP)
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/CLIP)((Please refer to the README file)
