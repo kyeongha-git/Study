@@ -11,19 +11,13 @@
 
 ## 🧠 무엇을, 왜 밝혔나?
 1. **모델 크기 의존성**  
-   \[
-   L(N,\infty)\approx L_\infty + a\,N^{-\alpha_N}
-   \]
+   $L(N,\infty)\approx L_\infty + a\,N^{-\alpha_N}$
    모델 파라미터가 커질수록 손실이 **예측 가능하게** 감소합니다.
-2. **데이터 규모 의존성**  
-   \[
-   L(\infty,D)\approx L_\infty + b\,D^{-\alpha_D}
-   \]
+2. **데이터 규모 의존성** 
+   $L(\infty,D)\approx L_\infty + b\,D^{-\alpha_D}$
    학습 토큰을 늘리면 비슷한 **기댓손실 감소율**을 따릅니다.
 3. **결합 모델**  
-   \[
-   L(N,D)\approx L_\infty + a\,N^{-\alpha_N}+b\,D^{-\alpha_D}
-   \]
+   $L(N,D)\approx L_\infty + a\,N^{-\alpha_N}+b\,D^{-\alpha_D}$
    → 두 축 모두에서 **매끄러운 스케일링 곡선**을 확인.
 4. **연산량 제약 하 최적화**  
    총 학습 연산을 \(C\approx k\,N D\)로 놓고 \(L(N,D)\)를 최소화하면,  
