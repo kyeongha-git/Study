@@ -1,9 +1,27 @@
 # 👋 Introduction
 
-해당 논문은 Attention is All you Need 라는 논문이며, Transformer를 처음으로 발표한 논문입니다.
-Vision Transformer와 함께 적혀있으며, 비교를 통해 설명합니다.
+본 발표는 **Attention Is All You Need (Vaswani et al., 2017)**, 최초의 **Transformer** 논문을 다룹니다.  
+Transformer는 **자기어텐션(Self-Attention)** 기반의 **Encoder–Decoder** 구조로, **순환/합성곱 없이** 병렬 학습을 가능하게 하여 기계번역을 비롯한 시퀀스 과제에서 **표준 아키텍처**가 되었습니다.
+
+## ✨ TL;DR
+- **핵심 아이디어**: RNN/CNN 없이 **(스케일드) 닷프로덕트 어텐션**을 다중 헤드로 병렬화 → 장·단기 의존성 동시 포착  
+- **구성**: 멀티헤드 어텐션 + 포지션 인코딩 + 위치별 FFN + **잔차/LayerNorm**  
+- **효과**: 높은 **병렬성**과 **효율**로 학습 가속, 번역 등에서 SOTA 수준 성능
+
+## 🧩 왜 중요한가?
+- **Parallelism**: 어텐션은 모든 토큰 쌍을 **동시에** 처리 → 긴 문맥 처리와 학습 속도 이점  
+- **모듈성**: Encoder/Decoder 스택과 어텐션 블록이 **타 도메인으로 손쉽게 이전** 가능 (NLP → 비전)
+
+## 🔍 Vision Transformer(ViT)와 한 페이지 비교
+- **입력 단위**: Transformer(원조)는 **토큰(단어/서브워드)**, **ViT**는 이미지를 **패치 토큰**으로 변환  
+- **구조**: ViT는 **Encoder 전용**(클래스 토큰 + MLP 헤드)로 분류 수행, 디코더 없음(기본형)  
+- **포지션 정보**: Transformer는 주로 **1D 포지션 인코딩**(사인/코사인 또는 학습형), ViT는 **패치 순서용** 포지션 임베딩  
+- **데이터 스케일**: ViT는 대규모 사전학습(예: 수억 장 수준)에서 강점이 두드러지고, 소규모에서는 **규제·증강**이 중요
+
+---
 
 # 🚀 Presentation
+
 
 ![Image](https://github.com/user-attachments/assets/60185547-bac1-4506-a3c8-9cfd4844d41b)
 
