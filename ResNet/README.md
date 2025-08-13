@@ -1,13 +1,38 @@
 # 👋 Introduction
 
- 해당 논문은 Deep Residual Learning for Image Recognition 입니다.
-ResNet 모델은 CNN의 대표적인 모델 중 하나로 Computer Vision 분야에 큰 발전을 불러일으킨 모델입니다. layer를 깊이 쌓으면 Degradation Problem이 발생하여 한계가 대두되던 시점에 이를 극복하기 위하여 Residual Learning과 Shortcut Connection을 도입하여 그 한계를 돌파했습니다.
+본 발표는 **Deep Residual Learning for Image Recognition (He et al., 2015/2016)**, 일명 **ResNet**을 다룹니다.  
+ResNet은 깊이가 늘어날수록 **훈련 오차조차 커지는 Degradation 문제**를 **Residual Learning**과 **Shortcut(Identity) Connection**으로 해결하여, “더 깊을수록 더 좋다”는 방향을 **현실화**한 모델입니다.
 
- 결과적으로, 50-layer부터 최대 1202-layer를 쌓아 좋은 성능을 기록하였으며, 다수의 벤치마크에서
-SOTA 성능을 기록하였습니다.
+## ✨ TL;DR
+- **핵심 아이디어**: 원하는 사상 \(H(x)\)를 직접 학습하는 대신, **잔차 \(F(x)=H(x)-x\)** 를 학습하고 **\(y = F(x) + x\)** 로 출력  
+- **효과**: **정보·그래디언트가 shortcut을 통해 직접 흐름** → 깊은 네트워크의 **최적화 용이성**과 **일반화** 동시 확보  
+- **아키텍처**:  
+  - **Basic Block**(2×3×3 conv, BN+ReLU): ResNet-18/34  
+  - **Bottleneck Block**(1×1 → 3×3 → 1×1): ResNet-50/101/152  
+- **성능**: ImageNet에서 **50–152층**으로 SOTA 갱신, 검출/분할 등 다운스트림에서도 강력한 백본으로 자리매김  
+  - **주의**: **1202층** 실험은 **CIFAR-10**에서의 결과이며, ImageNet은 152층까지 보고됨
+
+## 🧩 어떻게 동작하나 (요지)
+1. **Residual Block**: 하위 경로는 일반 conv, 상위 경로는 **identity(또는 1×1 projection)** 로 입력을 **직결**  
+2. **차원/해상도 변경 시**: stride 2 및 **projection shortcut(1×1 conv)** 로 채널/공간 정합  
+3. **학습 관점**:  
+   - 최적화 난이도 ↓: **항등함수**가 쉬운 해로 존재 → 깊어져도 최소한의 성능 보존  
+   - 표현력 ↑: 잔차 경로가 **필요한 변화만** 학습 → 안정적 수렴
+
+## 🔍 설계 포인트
+- **BatchNorm + ReLU**: 각 conv 뒤 정규화/활성화로 깊은 네트워크 안정화  
+- **Bottleneck**: 1×1으로 채널 축소/확장 → **연산량 절감**과 **표현력 유지**  
+- **Shortcut 종류**:  
+  - **Identity**(차원 동일)  
+  - **Projection (1×1 conv)**: 차원/해상도 불일치 시 사용
+
+## ⚠️ 실무 메모
+- **학습 스케줄**과 **정규화(BN 통계)** 가 성능에 민감  
+- **Pre-activation ResNet(ResNet v2)** 는 BN/활성화를 블록 앞단으로 이동해 **깊은 네트워크의 학습 안정성**을 더 높임(후속 연구)
+
+---
 
 # 🚀 Presentation
-
 <img width="1920" height="1080" alt="슬라이드1" src="https://github.com/user-attachments/assets/708e213a-77d3-4bd4-a98d-272a2904a4a3" />
 <img width="1920" height="1080" alt="슬라이드2" src="https://github.com/user-attachments/assets/6551abba-9303-43ea-b909-84d8ab84e3dd" />
 <img width="1920" height="1080" alt="슬라이드3" src="https://github.com/user-attachments/assets/54c386ff-ad9d-4eca-9d75-43ee67534f61" />
