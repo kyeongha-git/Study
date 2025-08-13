@@ -5,6 +5,8 @@
 ![Topic](https://img.shields.io/badge/Topics-VLM%20%7C%20LLM%20%7C%20SSL%20%7C%20CNN-lightgrey)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--08--13-success)
 
+![Image](https://github.com/user-attachments/assets/fff6081e-1eb1-4289-b7c3-c7e3c80311d9)
+
 본 저장소는 Vision-Language Models(VLM)을 중심으로, 핵심 기초 논문들을 **직접 구현(PyTorch)** 하고 **해설/주석** 및 **발표 자료**로 정리한 스터디 기록입니다. 구현의 정확성뿐 아니라 **설계 의도와 방법론적 맥락**을 해석하는 데 초점을 두었습니다.
 
 > 본 논문 리뷰는 **수원대학교 데이터과학부 김진현 교수님**과 함께한 스터디 내용을 토대로 하며,  
