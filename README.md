@@ -38,57 +38,57 @@
   - Paper: http://arxiv.org/abs/1706.03762  
   - Code: https://github.com/kyeongha-git/Study/tree/main/Transformer *(Dataset: Multi30k)*  
   - Explanations: https://kyeongha-blog.tistory.com/entry/Transformer-Attention-Is-All-You-Need  
-  - Presentation: (See folder README)
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/Transformer *(See folder README)*
 
 - **An Image Is Worth 16×16 Words (Vision Transformer)**  
   - Paper: http://arxiv.org/abs/2010.11929  
   - Code: https://github.com/kyeongha-git/Study/tree/main/ViT *(Dataset: CIFAR-10)*  
   - Explanations: https://kyeongha-blog.tistory.com/entry/Vision-Transformer-AN-IMAGE-IS-WORTH-16X16-WORDS-TRANSFORMERS-FOR-IMAGE-RECOGNITION-AT-SCALE  
-  - Presentation: (See folder README)
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/Vision Transformer *(See folder README)*
 
 - **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**  
   - Paper: https://arxiv.org/abs/1810.04805  
   - Code: https://github.com/kyeongha-git/Study/tree/main/BERT-pytorch  
   - Explanations: https://kyeongha-blog.tistory.com/entry/LLM-BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%BC%BC%EA%BC%BC%ED%9E%88  
-  - Presentation: (See folder README)
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/BERT *(See folder README)*
 
 - **Language Models are Unsupervised Multitask Learners (GPT-2)**  
   - Paper: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/GPT-2 *(See folder README)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/GPT-2 *(See folder README)*
 
 - **Language Models are Few-Shot Learners (GPT-3)**  
   - Paper: https://papers.nips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf  
   - Explanations: https://kyeongha-blog.tistory.com/entry/GPT-3-Language-Models-are-Few-Shot-Learners-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%BC%BC%EA%BC%BC%ED%9E%88  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/GPT-3 *(See folder README)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/GPT-3 *(See folder README)*
 
 - **Scaling Laws for Neural Language Models**  
   - Paper: http://arxiv.org/abs/2001.08361  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/Scailng%20Law *(See folder README; 표기 통일 예정: “Scaling-Law”)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/Scailng-Law *(See folder README)*
 
 ### Basic CNN
 - **CNN Case Study (AlexNet · VGG · GoogLeNet)**  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/CNN%20(AlexNet%2CVGG%2CGoogLeNet) *(See folder README)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/Basic%20CNN/CNN%20(AlexNet%2CVGG%2CGoogLeNet) *(See folder README)*
 
 - **Deep Residual Learning for Image Recognition (ResNet)**  
   - Paper: https://arxiv.org/abs/1512.03385  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/ResNet *(See folder README)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/Basic%20CNN/ResNet *(See folder README)*
 
 ### SSL (Self-Supervised Learning)
 - **Unsupervised Representation Learning by Predicting Image Rotations (RotNet)**  
   - Paper: http://arxiv.org/abs/1803.07728  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/RotNet *(See folder README)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/SSL/RotNet *(See folder README)*
 
 - **SimCLR: A Simple Framework for Contrastive Learning of Visual Representations**  
   - Paper: http://arxiv.org/abs/2002.05709  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/SimCLR *(See folder README)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/SSL/SimCLR *(See folder README)*
 
 - **MoCo: Momentum Contrast for Unsupervised Visual Representation Learning**  
   - Paper: http://arxiv.org/abs/1911.05722  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/MoCo *(See folder README)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/SSL/MoCo *(See folder README)*
 
 - **CLIP: Learning Transferable Visual Models From Natural Language Supervision**  
   - Paper: http://arxiv.org/abs/2103.00020  
-  - Presentation: https://github.com/kyeongha-git/Study/tree/main/CLIP *(See folder README)*
+  - Presentation: https://github.com/kyeongha-git/Study/tree/main/SSL/CLIP *(See folder README)*
 
 ---
 
