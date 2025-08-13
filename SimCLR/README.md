@@ -1,10 +1,38 @@
 # 👋 Introduction
 
- 본 논문은 "A Simple Framework for Contrastive Learning of Visual Representations"입니다. 본
-논문은 Contrastive Learning을 기반으로 Self-Supervised Learning을 진행한 기념비적인 논문입니다. 
- 
-  기존의 Self-Supervised Learning의 Approach의 문제점을 지적하며, Contrastive Learning의
-필요성을 제기합니다. 이를 Self-Supervised Learning 방식으로 구현하여 기존의 Unsupervised Learning 모델과 비교했을 때 ImageNet Classification에서 SOTA 성능을 기록하였으며, 더 나아가 Supervised Learning의 성능과 유사하거나 우수한 성능을 보였다는 점에서 인상깊었습니다.
+본 발표는 **A Simple Framework for Contrastive Learning of Visual Representations (SimCLR; Chen et al., 2020)** 를 다룹니다.  
+SimCLR는 **메모리뱅크나 모멘텀 인코더 없이**, **배치 내부의 모든 샘플을 음성(negative)으로 활용**하는 간결한 대조학습 프레임워크를 제안합니다. 강력한 데이터 증강과 **투영 헤드(projection head)**, **온도(temperature) 조절이 있는 NT-Xent(InfoNCE 계열) 손실**을 조합하여, **라벨 없이 학습한 표현**이 ImageNet에서 **선형 분류(Linear Eval)** 기준으로 당시 **SOTA에 근접/갱신**하는 것을 보였습니다.
+
+## ✨ TL;DR
+- **핵심 구성**: (강한 증강) → (백본 인코더, 보통 ResNet) → (투영 헤드 MLP) → (ℓ2 정규화) → **NT-Xent 손실**  
+- **인배치 음성**: 메모리뱅크나 큐 없이 **배치 내의 다른 모든 뷰를 음성**으로 간주 → **큰 배치일수록** 유리  
+- **투영 헤드의 가치**: 표현 공간(인코더 출력)과 대조 학습 공간(투영 후) **분리**가 성능 향상에 기여  
+- **결과**: Self-Supervised임에도 **선형 프로브**에서 **감독학습에 근접/경쟁**하는 성능
+
+## 🧩 어떻게 동작하나 (요지)
+1. 각 이미지에 **두 가지 독립 증강**(랜덤 크롭/리사이즈, 컬러 왜곡, 그레이스케일, 가우시안 블러 등)을 적용 → **두 뷰** 생성  
+2. 각 뷰를 **공유 가중치 인코더**와 **투영 헤드(MLP)** 를 통과 → **정규화 임베딩** 획득  
+3. 한 쌍(같은 원본의 두 뷰)을 **양성(positive)**, 배치의 나머지 뷰들을 **음성(negative)** 으로 두고  
+   **NT-Xent** 손실(코사인 유사도 + **온도 τ**)로 **양성은 가깝게**, **음성은 멀게** 학습  
+4. 평가 시에는 **투영 헤드를 버리고 인코더 표상** 위에 **선형 분류기**를 얹어 성능을 측정
+
+## 🔍 왜 중요한가?
+- **단순하지만 강력**: 복잡한 큐/메모리 없이 **순수 인배치 대조학습**만으로 높은 성능을 달성  
+- **설계 인사이트**: **강한 증강**, **투영 헤드**, **적절한 τ** 및 **큰 배치**가 대조학습의 핵심임을 정량 확인  
+- **실무 출발점**: 이후 MoCo v2/ BYOL/ SimSiam/ CLIP 등 **표현학습 계열의 기준점**이 됨
+
+## 🛠️ 실무 팁(요약)
+- **증강 강도**가 결정적: 크롭+컬러왜곡(+블러)의 조합이 핵심  
+- **배치 크기**는 클수록 안정적(음성 수↑). 자원 제약 시 **메모리 최적화/분산학습** 고려  
+- **투영 헤드**: 2-layer MLP(+ReLU) 사용, 학습 후 **헤드는 폐기**하고 backbone의 표현을 사용  
+- **온도 τ**와 **러닝레이트/스케줄**은 성능 민감 → 반드시 튜닝
+
+## ⚠️ 한계
+- **큰 배치 의존**: 충분한 음성이 필요해 자원 요구가 큼  
+- **뷰 설계 민감**: 증강 레시피에 따라 학습 난이도/일반화가 크게 달라짐  
+- **밀집 예측/정밀 로컬라이제이션** 등에서는 **전용 파인튜닝**이 추가로 필요할 수 있음
+
+---
 
 # 🚀 Presentation
 <img width="1920" height="1080" alt="001" src="https://github.com/user-attachments/assets/e207e7b6-6e43-47ca-80d3-c546b347d83a" />
