@@ -36,7 +36,7 @@
 ### LLM / Foundation Models
 - **Attention Is All You Need (Transformer)**  
   - [Paper](http://arxiv.org/abs/1706.03762)
-  - [Code](https://github.com/kyeongha-git/Study/tree/main/Transformer) *(Dataset: Multi30k)*  
+  - [Code](https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/Transformer) *(Dataset: Multi30k)*  
   - [Explanations](https://kyeongha-blog.tistory.com/entry/Transformer-Attention-Is-All-You-Need)
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/Transformer) *(See folder README)*
 
