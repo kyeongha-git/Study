@@ -42,7 +42,7 @@
 
 - **An Image Is Worth 16×16 Words (Vision Transformer)**  
   - [Paper](http://arxiv.org/abs/2010.11929)  
-  - [Code](https://github.com/kyeongha-git/Study/tree/main/ViT) *(Dataset: CIFAR-10)*  
+  - [Code](https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/Vision%20Transformer) *(Dataset: CIFAR-10)*  
   - [Explanations](https://kyeongha-blog.tistory.com/entry/Vision-Transformer-AN-IMAGE-IS-WORTH-16X16-WORDS-TRANSFORMERS-FOR-IMAGE-RECOGNITION-AT-SCALE) 
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/Vision%20Transformer) *(See folder README)*
 
