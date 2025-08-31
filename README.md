@@ -92,11 +92,11 @@
  
 - **Emerging Properties in Self-Supervised Vision Transformers** (DINO)
   - [Paper](http://arxiv.org/abs/2104.14294)  
-  - [Presentation]() *(See folder README)*
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SSL/DINO) *(See folder README)*
 
 - **DINOv2: Learning Robust Visual Features without Supervision** (DINO v2)
   - [Paper](http://arxiv.org/abs/2304.07193)  
-  - [Presentation]() *(See folder README)*
+  - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SSL/DINO%20v2) *(See folder README)*
  
 - **Masked Autoencoders Are Scalable Vision Learners** (MAE)
   - [Paper](http://arxiv.org/abs/2111.06377)  
