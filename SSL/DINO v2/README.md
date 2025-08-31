@@ -72,3 +72,23 @@ DINOv2는 **라벨 없는(self-supervised)** 방식으로 학습된 Vision Trans
 ---
 
 # 🚀 Presentation  
+<img width="1920" height="1080" alt="슬라이드1" src="https://github.com/user-attachments/assets/cb05f8f3-d74b-459d-8f6c-1bebfbb272fb" />
+<img width="1920" height="1080" alt="슬라이드2" src="https://github.com/user-attachments/assets/e8123e73-35f7-4c76-9861-6ba5297fdfc9" />
+<img width="1920" height="1080" alt="슬라이드3" src="https://github.com/user-attachments/assets/70bdf47d-2832-429e-b177-32b54193eb00" />
+<img width="1920" height="1080" alt="슬라이드4" src="https://github.com/user-attachments/assets/c91f8a11-9aa9-4da0-a518-4994b150bf0b" />
+<img width="1920" height="1080" alt="슬라이드5" src="https://github.com/user-attachments/assets/7aa83499-70c7-415d-9018-1cac34a29deb" />
+<img width="1920" height="1080" alt="슬라이드6" src="https://github.com/user-attachments/assets/be22d6b0-e829-4d3f-b12b-2c01638e4ec6" />
+<img width="1920" height="1080" alt="슬라이드7" src="https://github.com/user-attachments/assets/0e64862c-5c0a-4e8d-b762-c27e751a0b3c" />
+<img width="1920" height="1080" alt="슬라이드8" src="https://github.com/user-attachments/assets/a56e2146-774f-43ff-a3e4-a2fce253b89f" />
+<img width="1920" height="1080" alt="슬라이드9" src="https://github.com/user-attachments/assets/fa85c9f5-382e-4702-8db0-369098b2162b" />
+<img width="1920" height="1080" alt="슬라이드10" src="https://github.com/user-attachments/assets/5ad1d7da-a3cb-4484-8a35-464e5ed75034" />
+<img width="1920" height="1080" alt="슬라이드11" src="https://github.com/user-attachments/assets/40c4b3a8-ce18-45b0-aaf5-67ec34d07cfb" />
+<img width="1920" height="1080" alt="슬라이드12" src="https://github.com/user-attachments/assets/7338b6f5-8fb3-4401-8d38-edad8ff8b2af" />
+<img width="1920" height="1080" alt="슬라이드13" src="https://github.com/user-attachments/assets/9ad0d43e-b6a5-481d-a5de-45cdb75d1912" />
+<img width="1920" height="1080" alt="슬라이드14" src="https://github.com/user-attachments/assets/2ab5cd95-7b1f-4321-86d3-494550815505" />
+<img width="1920" height="1080" alt="슬라이드15" src="https://github.com/user-attachments/assets/373634a4-cbcc-404b-a23f-15efcdd1a669" />
+<img width="1920" height="1080" alt="슬라이드16" src="https://github.com/user-attachments/assets/0c152e9b-bde9-4ec8-92b4-a549d1028d45" />
+<img width="1920" height="1080" alt="슬라이드17" src="https://github.com/user-attachments/assets/484a0328-52c4-40a7-9d40-d13c6542ca01" />
+<img width="1920" height="1080" alt="슬라이드18" src="https://github.com/user-attachments/assets/f13e099a-cb16-4040-8535-da6fe27eeb62" />
+<img width="1920" height="1080" alt="슬라이드19" src="https://github.com/user-attachments/assets/5a0f1b1e-7be5-412e-a668-9068e606439d" />
+<img width="1920" height="1080" alt="슬라이드20" src="https://github.com/user-attachments/assets/096cbdb3-b411-4ab0-9e8f-cbf645400f04" />
