@@ -78,18 +78,29 @@
   - [Paper](http://arxiv.org/abs/1803.07728)  
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SSL/RotNet) *(See folder README)*
 
-- **SimCLR: A Simple Framework for Contrastive Learning of Visual Representations**  
+- **SimCLR: A Simple Framework for Contrastive Learning of Visual Representations** (SimCLR)
   - [Paper](http://arxiv.org/abs/2002.05709)  
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SSL/SimCLR) *(See folder README)*
 
-- **MoCo: Momentum Contrast for Unsupervised Visual Representation Learning**  
+- **MoCo: Momentum Contrast for Unsupervised Visual Representation Learning** (MoCo)
   - [Paper](http://arxiv.org/abs/1911.05722)  
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SSL/MoCo) *(See folder README)*
 
-- **CLIP: Learning Transferable Visual Models From Natural Language Supervision**  
+- **CLIP: Learning Transferable Visual Models From Natural Language Supervision** (CLIP)
   - [Paper](http://arxiv.org/abs/2103.00020)  
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SSL/CLIP) *(See folder README)*
+ 
+- **Emerging Properties in Self-Supervised Vision Transformers** (DINO)
+  - [Paper](http://arxiv.org/abs/2104.14294)  
+  - [Presentation]() *(See folder README)*
 
+- **DINOv2: Learning Robust Visual Features without Supervision** (DINO v2)
+  - [Paper](http://arxiv.org/abs/2103.00020)  
+  - [Presentation]() *(See folder README)*
+ 
+- **Masked Autoencoders Are Scalable Vision Learners** (MAE)
+  - [Paper](http://arxiv.org/abs/2111.06377)  
+  
 ---
 
 ## 🧭 How to Navigate
