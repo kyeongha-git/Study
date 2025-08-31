@@ -95,7 +95,7 @@
   - [Presentation]() *(See folder README)*
 
 - **DINOv2: Learning Robust Visual Features without Supervision** (DINO v2)
-  - [Paper](http://arxiv.org/abs/2103.00020)  
+  - [Paper](http://arxiv.org/abs/2304.07193)  
   - [Presentation]() *(See folder README)*
  
 - **Masked Autoencoders Are Scalable Vision Learners** (MAE)
