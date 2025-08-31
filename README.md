@@ -48,7 +48,7 @@
 
 - **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**  
   - [Paper](https://arxiv.org/abs/1810.04805)
-  - [Code](https://github.com/kyeongha-git/Study/tree/main/BERT-pytorch) 
+  - [Code](https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/BERT)
   - [Explanations](https://kyeongha-blog.tistory.com/entry/LLM-BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%BC%BC%EA%BC%BC%ED%9E%88)
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/BERT) *(See folder README)*
 
