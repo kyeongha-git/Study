@@ -54,3 +54,18 @@ LLaVA는 BLIP-2 스타일의 **이미지 인코더 + LLM 결합 구조**를 기�
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드89" src="https://github.com/user-attachments/assets/6117b9d4-dd3c-41ac-8c22-664d54f53ca6" />
+<img width="1920" height="1080" alt="슬라이드90" src="https://github.com/user-attachments/assets/fabc1821-ae5a-4bc0-a78d-61cb19e5d677" />
+<img width="1920" height="1080" alt="슬라이드91" src="https://github.com/user-attachments/assets/ba2cd288-b1b2-4290-aafc-f5f1ef4e6bce" />
+<img width="1920" height="1080" alt="슬라이드92" src="https://github.com/user-attachments/assets/bdc39ef2-5974-4665-9851-5877cba44b2e" />
+<img width="1920" height="1080" alt="슬라이드93" src="https://github.com/user-attachments/assets/a60709e7-6015-49d2-b4b4-9087eb62d4bb" />
+<img width="1920" height="1080" alt="슬라이드94" src="https://github.com/user-attachments/assets/d693dd60-7473-4684-bc8a-428e9ff14536" />
+<img width="1920" height="1080" alt="슬라이드95" src="https://github.com/user-attachments/assets/17dbd3e3-d75c-49c9-9f9e-514dc367bbc2" />
+<img width="1920" height="1080" alt="슬라이드96" src="https://github.com/user-attachments/assets/41bafd9d-1856-4f72-a9f5-02c219ec5e27" />
+<img width="1920" height="1080" alt="슬라이드97" src="https://github.com/user-attachments/assets/740c9e9c-f891-4649-a6ae-4e8365f10dc1" />
+<img width="1920" height="1080" alt="슬라이드98" src="https://github.com/user-attachments/assets/b1d92b38-f7fa-44c4-8dc9-c8788ec1bf19" />
+
+
+
+
+
