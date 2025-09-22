@@ -52,3 +52,21 @@ InstructGPT는 GPT-3를 기반으로, 단순한 대규모 언어 모델이 아�
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드80" src="https://github.com/user-attachments/assets/e60ee280-a1fb-4906-97e7-339441e0de6c" />
+<img width="1920" height="1080" alt="슬라이드81" src="https://github.com/user-attachments/assets/fd75544f-48a8-4424-898f-6d9144f69f50" />
+<img width="1920" height="1080" alt="슬라이드82" src="https://github.com/user-attachments/assets/f08e20ee-3aac-499a-aba0-9547af45cd7e" />
+<img width="1920" height="1080" alt="슬라이드83" src="https://github.com/user-attachments/assets/a3b492fc-5f59-490a-90fb-611c848be240" />
+<img width="1920" height="1080" alt="슬라이드84" src="https://github.com/user-attachments/assets/f941f0e5-ad53-41f9-aaa5-ea8a4ee91bfd" />
+<img width="1920" height="1080" alt="슬라이드85" src="https://github.com/user-attachments/assets/19e1d4ed-0b25-4ff8-ad02-6a714f49d8a1" />
+<img width="1920" height="1080" alt="슬라이드86" src="https://github.com/user-attachments/assets/02a3b9ff-a6a5-48d0-8f17-eee7c5daecf4" />
+<img width="1920" height="1080" alt="슬라이드87" src="https://github.com/user-attachments/assets/cc7d4f62-b680-4dff-a63a-4bb326351b99" />
+<img width="1920" height="1080" alt="슬라이드88" src="https://github.com/user-attachments/assets/f115c70a-9b91-4256-8d6a-ccd07627e6f2" />
+
+
+
+
+
+
+
+
+
