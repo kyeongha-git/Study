@@ -53,3 +53,22 @@
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드2" src="https://github.com/user-attachments/assets/f16bd09f-8b27-4793-a9e6-2dc7eb426e73" />
+<img width="1920" height="1080" alt="슬라이드3" src="https://github.com/user-attachments/assets/bc40e07b-0dbc-43fe-a4b0-4e674d506935" />
+<img width="1920" height="1080" alt="슬라이드4" src="https://github.com/user-attachments/assets/da05c124-8088-4393-8dcc-c73bbca39aa0" />
+<img width="1920" height="1080" alt="슬라이드5" src="https://github.com/user-attachments/assets/1e8525ca-033f-4756-8d07-c13343b4ab77" />
+<img width="1920" height="1080" alt="슬라이드6" src="https://github.com/user-attachments/assets/9e86e73a-a9d9-4e7e-9326-152ef855592a" />
+<img width="1920" height="1080" alt="슬라이드7" src="https://github.com/user-attachments/assets/3522cb80-cd3c-48c5-a19b-0334c708f42a" />
+<img width="1920" height="1080" alt="슬라이드8" src="https://github.com/user-attachments/assets/f42c6e6a-0983-4fee-a075-f29c89736004" />
+
+
+
+
+
+
+
+
+
+
+
+
