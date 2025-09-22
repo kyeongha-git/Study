@@ -54,3 +54,23 @@ BLIP은 Vision–Language Pretraining(VLP) 분야에서 **이해(understanding)*
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드37" src="https://github.com/user-attachments/assets/06bc38ef-2ec0-42c3-a11d-61ad64329be2" />
+<img width="1920" height="1080" alt="슬라이드38" src="https://github.com/user-attachments/assets/520a8f55-0daa-4b7c-8f10-7b0ced138522" />
+<img width="1920" height="1080" alt="슬라이드39" src="https://github.com/user-attachments/assets/e06db907-72bd-41e4-8678-945e3a4d49cb" />
+<img width="1920" height="1080" alt="슬라이드40" src="https://github.com/user-attachments/assets/9fd54519-2361-4570-8d78-d2b4584a624a" />
+<img width="1920" height="1080" alt="슬라이드41" src="https://github.com/user-attachments/assets/e50cf6dd-b93c-42d2-b67f-abcd0622cd35" />
+<img width="1920" height="1080" alt="슬라이드42" src="https://github.com/user-attachments/assets/c3d93c6c-30f2-45cd-b72d-f85763fa5735" />
+<img width="1920" height="1080" alt="슬라이드43" src="https://github.com/user-attachments/assets/4a7e4156-f92c-488a-804b-05a14585be39" />
+<img width="1920" height="1080" alt="슬라이드44" src="https://github.com/user-attachments/assets/9cb9c536-084d-4940-ace8-3e665ccc47d0" />
+<img width="1920" height="1080" alt="슬라이드45" src="https://github.com/user-attachments/assets/f66ddd3a-63fa-4662-a48a-fb285a961f82" />
+
+
+
+
+
+
+
+
+
+
+
