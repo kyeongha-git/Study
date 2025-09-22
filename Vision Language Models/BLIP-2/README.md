@@ -54,3 +54,29 @@ BLIP-2는 Vision–Language 모델과 LLM(대규모 언어 모델)을 연결하�
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드71" src="https://github.com/user-attachments/assets/69f35ace-e522-4348-8ca6-0249caabd56a" />
+<img width="1920" height="1080" alt="슬라이드72" src="https://github.com/user-attachments/assets/3972ba7a-d0a3-4361-87a0-95a56a6d0896" />
+<img width="1920" height="1080" alt="슬라이드73" src="https://github.com/user-attachments/assets/be560a29-26e7-465a-8281-8d86fb118ae3" />
+<img width="1920" height="1080" alt="슬라이드74" src="https://github.com/user-attachments/assets/ca7ab4bd-c6c2-4095-a151-62c5327a0aa7" />
+<img width="1920" height="1080" alt="슬라이드75" src="https://github.com/user-attachments/assets/f12501e2-5cdb-4b89-b907-eaaa4e1ebf18" />
+<img width="1920" height="1080" alt="슬라이드76" src="https://github.com/user-attachments/assets/889fb5e9-ded4-4dc7-bbc7-454ce9562470" />
+<img width="1920" height="1080" alt="슬라이드77" src="https://github.com/user-attachments/assets/8a9d3931-ae2c-4442-90f7-69b8f13bae36" />
+<img width="1920" height="1080" alt="슬라이드78" src="https://github.com/user-attachments/assets/04436a66-ed47-45aa-a5d2-2f2625ed6f06" />
+<img width="1920" height="1080" alt="슬라이드79" src="https://github.com/user-attachments/assets/588c63ac-1c6c-49a8-9265-fd1e8b4b0157" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
