@@ -53,3 +53,13 @@ ViLBERT는 **Vision–Language Pretraining (VLP)** 연구의 초기 대표 모�
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드9" src="https://github.com/user-attachments/assets/409d9704-f62b-47e9-93c0-d444c15a509c" />
+<img width="1920" height="1080" alt="슬라이드10" src="https://github.com/user-attachments/assets/4d2e0ea7-f739-4313-8d14-665dbf94211e" />
+<img width="1920" height="1080" alt="슬라이드11" src="https://github.com/user-attachments/assets/dafe1577-615b-4268-80e8-0c179d9462c1" />
+<img width="1920" height="1080" alt="슬라이드12" src="https://github.com/user-attachments/assets/f56dae33-69fd-429b-8bbf-e1880799ceaa" />
+<img width="1920" height="1080" alt="슬라이드13" src="https://github.com/user-attachments/assets/575865b2-a4ae-48ae-a397-57a752dac401" />
+<img width="1920" height="1080" alt="슬라이드14" src="https://github.com/user-attachments/assets/fb083dd2-9c95-4aef-93a4-8f4826474141" />
+<img width="1920" height="1080" alt="슬라이드15" src="https://github.com/user-attachments/assets/49686fff-038d-4c14-91af-96767dc71128" />
+<img width="1920" height="1080" alt="슬라이드16" src="https://github.com/user-attachments/assets/bb3165da-8f65-4b64-afbd-8306b49f9d26" />
+<img width="1920" height="1080" alt="슬라이드17" src="https://github.com/user-attachments/assets/23462942-624c-4dd9-bbaa-95e90fe8a7c2" />
+
