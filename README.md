@@ -65,6 +65,7 @@
   - [Explanations](https://kyeongha-blog.tistory.com/entry/Vision-Transformer-AN-IMAGE-IS-WORTH-16X16-WORDS-TRANSFORMERS-FOR-IMAGE-RECOGNITION-AT-SCALE)  
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/LLM-Foundation%20Models/Vision%20Transformer) *(See folder README)*
 
+---
 
 ### Basic CNN
 - **CNN Case Study (AlexNet · VGG · GoogLeNet)**  
@@ -102,6 +103,7 @@
   - [Paper](http://arxiv.org/abs/2304.07193)  
   - [Presentation](https://github.com/kyeongha-git/Study/tree/main/SSL/DINO%20v2) *(See folder README)*
 
+---
 
 ### VLM (Vision Language Model)
 - **Show, Attend and Tell: Neural Image Caption Generation with Visual Attention**
