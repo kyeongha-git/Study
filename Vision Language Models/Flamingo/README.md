@@ -54,3 +54,15 @@ Flamingo는 DeepMind가 제안한 멀티모달 모델로, **Few-Shot 학습**을
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드62" src="https://github.com/user-attachments/assets/8f89ab57-9f5b-4a7b-993d-1995ba92d076" />
+<img width="1920" height="1080" alt="슬라이드63" src="https://github.com/user-attachments/assets/638356da-52db-4bd8-bb4f-c315e2b818ea" />
+<img width="1920" height="1080" alt="슬라이드64" src="https://github.com/user-attachments/assets/a7ce65ae-56e4-417d-8286-d5e3dc73037b" />
+<img width="1920" height="1080" alt="슬라이드65" src="https://github.com/user-attachments/assets/49130517-f00e-4234-9630-6b4551ce6bdc" />
+<img width="1920" height="1080" alt="슬라이드66" src="https://github.com/user-attachments/assets/49ff3bd1-271f-45fd-9e8a-a4ce0b63123f" />
+<img width="1920" height="1080" alt="슬라이드67" src="https://github.com/user-attachments/assets/777a6c97-2323-4b93-b05d-455795f563c2" />
+<img width="1920" height="1080" alt="슬라이드68" src="https://github.com/user-attachments/assets/07c1ecc9-1136-4bbf-8c4c-cc74242bff6c" />
+<img width="1920" height="1080" alt="슬라이드69" src="https://github.com/user-attachments/assets/50120e2d-43b5-4318-a332-38f4b6db5a74" />
+<img width="1920" height="1080" alt="슬라이드70" src="https://github.com/user-attachments/assets/97690165-9e31-49cd-99f6-73572817d429" />
+
+
+
