@@ -55,3 +55,21 @@ SimVLM은 이름 그대로 **단순화(Simple)** 를 핵심 설계 철학으로 
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드46" src="https://github.com/user-attachments/assets/2bd42a1c-d386-4bc4-b6bb-bb1885ff7fc2" />
+<img width="1920" height="1080" alt="슬라이드47" src="https://github.com/user-attachments/assets/1f15ada9-6302-4a0f-a40c-ec2866c7db52" />
+<img width="1920" height="1080" alt="슬라이드48" src="https://github.com/user-attachments/assets/46c435ab-dccd-4961-9aaf-6afc35e0b63e" />
+<img width="1920" height="1080" alt="슬라이드49" src="https://github.com/user-attachments/assets/b0d08df2-7f9c-4195-8758-70df5163996e" />
+<img width="1920" height="1080" alt="슬라이드50" src="https://github.com/user-attachments/assets/0353aba3-4f0b-45af-9747-a6a1f6675a87" />
+<img width="1920" height="1080" alt="슬라이드51" src="https://github.com/user-attachments/assets/99f35498-5675-4621-8b62-694469a89b20" />
+<img width="1920" height="1080" alt="슬라이드52" src="https://github.com/user-attachments/assets/85f9d412-4b5e-4ea8-9bd7-f0566ace485a" />
+
+
+
+
+
+
+
+
+
+
+
