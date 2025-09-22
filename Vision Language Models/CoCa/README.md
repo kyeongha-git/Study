@@ -55,3 +55,21 @@ CoCa는 Google Research에서 제안한 모델로, **대조학습(contrastive le
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드53" src="https://github.com/user-attachments/assets/85917910-99bb-4479-8059-6ce432b64253" />
+<img width="1920" height="1080" alt="슬라이드54" src="https://github.com/user-attachments/assets/2c062f97-5625-4b9e-b2d9-87baa1c83705" />
+<img width="1920" height="1080" alt="슬라이드55" src="https://github.com/user-attachments/assets/62d54fd0-5f2e-4fdf-887a-9b9a17c6091d" />
+<img width="1920" height="1080" alt="슬라이드56" src="https://github.com/user-attachments/assets/345d4f4c-ea77-4de5-b22e-d8f389bad27e" />
+<img width="1920" height="1080" alt="슬라이드57" src="https://github.com/user-attachments/assets/e8d70257-89da-48bd-ad98-fefe6ae1fb0b" />
+<img width="1920" height="1080" alt="슬라이드58" src="https://github.com/user-attachments/assets/d6c56d56-563e-4334-aba7-9682491085be" />
+<img width="1920" height="1080" alt="슬라이드59" src="https://github.com/user-attachments/assets/11abc181-287d-4678-bb21-b90c7d7f3448" />
+<img width="1920" height="1080" alt="슬라이드60" src="https://github.com/user-attachments/assets/ac39a70b-3ca9-4ecf-9f50-10f99e352e8b" />
+<img width="1920" height="1080" alt="슬라이드61" src="https://github.com/user-attachments/assets/9052be45-91ac-499b-a3b5-245dd2b0e170" />
+
+
+
+
+
+
+
+
+
