@@ -57,3 +57,21 @@ UNITER는 Vision–Language Pretraining(VLP) 분야에서 **Single-Stream Transf
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드18" src="https://github.com/user-attachments/assets/2ab09774-8f91-45fb-ae95-002a2884ac1c" />
+<img width="1920" height="1080" alt="슬라이드19" src="https://github.com/user-attachments/assets/5370ddc1-8f31-4153-8963-fb7c981d426b" />
+<img width="1920" height="1080" alt="슬라이드20" src="https://github.com/user-attachments/assets/af0f526e-157a-4aa4-8ada-ab9a830d5eef" />
+<img width="1920" height="1080" alt="슬라이드21" src="https://github.com/user-attachments/assets/25e9d680-0cf1-4460-a57d-925830ce529d" />
+<img width="1920" height="1080" alt="슬라이드22" src="https://github.com/user-attachments/assets/e1b31dc5-fa49-4458-9aeb-9077d1b96e29" />
+<img width="1920" height="1080" alt="슬라이드23" src="https://github.com/user-attachments/assets/3582af5e-5314-4207-8f8e-162254c11055" />
+<img width="1920" height="1080" alt="슬라이드24" src="https://github.com/user-attachments/assets/4ea4be45-76df-4650-a8f5-c6491104f3bb" />
+<img width="1920" height="1080" alt="슬라이드25" src="https://github.com/user-attachments/assets/6e189195-b142-418a-a4a9-0515dd5c3057" />
+<img width="1920" height="1080" alt="슬라이드26" src="https://github.com/user-attachments/assets/530722b9-53ce-4871-a47d-700d19043e7d" />
+
+
+
+
+
+
+
+
+
