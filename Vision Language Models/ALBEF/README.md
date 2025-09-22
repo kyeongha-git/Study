@@ -55,3 +55,23 @@ ALBEF는 Vision–Language Pretraining(VLP) 모델로, 핵심 아이디어는 **
 ---
 
 # 🚀 Presentation
+<img width="1920" height="1080" alt="슬라이드27" src="https://github.com/user-attachments/assets/0212ccd1-fb1a-4326-8eee-7fef9e63fa4a" />
+<img width="1920" height="1080" alt="슬라이드28" src="https://github.com/user-attachments/assets/ac82dbbc-419a-4de2-8311-92f1157b2a90" />
+<img width="1920" height="1080" alt="슬라이드29" src="https://github.com/user-attachments/assets/11c77965-2135-4b56-b24b-b4d47cb0567b" />
+<img width="1920" height="1080" alt="슬라이드30" src="https://github.com/user-attachments/assets/a83702fb-3c4f-4a42-902d-7b6678625b9a" />
+<img width="1920" height="1080" alt="슬라이드31" src="https://github.com/user-attachments/assets/5ad22fcc-e51c-4e8b-9bbf-213b3368f138" />
+<img width="1920" height="1080" alt="슬라이드32" src="https://github.com/user-attachments/assets/1445352d-2d39-4982-82b8-1f37cf187019" />
+<img width="1920" height="1080" alt="슬라이드33" src="https://github.com/user-attachments/assets/09648f9e-87f7-46f7-bb85-90fe7d419d89" />
+<img width="1920" height="1080" alt="슬라이드34" src="https://github.com/user-attachments/assets/3ba73b41-bba6-475d-8289-6a6fe33221dd" />
+<img width="1920" height="1080" alt="슬라이드35" src="https://github.com/user-attachments/assets/486b452e-e399-4da3-aad0-5c6e325ef8f4" />
+<img width="1920" height="1080" alt="슬라이드36" src="https://github.com/user-attachments/assets/7c556e89-a157-4c32-a5b4-d89b848db0c1" />
+
+
+
+
+
+
+
+
+
+
