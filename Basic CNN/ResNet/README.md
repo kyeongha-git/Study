@@ -32,7 +32,7 @@ ResNet은 깊이가 늘어날수록 **훈련 오차조차 커지는 Degradation 
 
 ---
 
-# 🚀 Presentation
+# Presentation
 <img width="1920" height="1080" alt="슬라이드1" src="https://github.com/user-attachments/assets/708e213a-77d3-4bd4-a98d-272a2904a4a3" />
 <img width="1920" height="1080" alt="슬라이드2" src="https://github.com/user-attachments/assets/6551abba-9303-43ea-b909-84d8ab84e3dd" />
 <img width="1920" height="1080" alt="슬라이드3" src="https://github.com/user-attachments/assets/54c386ff-ad9d-4eca-9d75-43ee67534f61" />
