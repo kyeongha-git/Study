@@ -1,19 +1,19 @@
-# 👋 Introduction
+# Introduction
 
 본 리포지토리는 **CNN의 기초를 ‘세 개의 대표 모델’(AlexNet · VGG · GoogLeNet)로 압축**해 학습하는 스터디 자료입니다.  
 각 모델의 **아키텍처 구성, 핵심 아이디어, 설계 선택의 트레이드오프**를 논문을 바탕으로 정리하여, 이미지 분류용 CNN의 **설계 철학과 진화 과정**을 한눈에 연결해 이해하는 것을 목표로 합니다.
 
-## ✨ TL;DR
+## TL;DR
 - **목표**: 논문을 기반으로 아키텍처를 읽고 → 재구성하고 → 비교하여 **CNN의 기본기를 탄탄히** 다지기
 - **범위**: 이미지 분류 중심의 **구조(레이어 스택), 하이퍼파라미터(커널/스트라이드/패딩), 정규화·정규화기법, 연산량·파라미터 규모** 등
 - **원칙**: 원 논문의 표현과 실험 맥락을 **최대한 충실히 반영**하되, 이해에 필요한 **보충 설명**을 덧붙임
 
-## 📚 Coverage (핵심 포인트만)
+## Coverage (핵심 포인트만)
 - **AlexNet (2012)**: ReLU 도입, **GPU 병렬 학습**, 데이터 증강, Dropout, LRN 등으로 깊은 모델 학습을 현실화  
 - **VGG (2014)**: **3×3 컨볼루션의 반복 스택**으로 깊이를 확장하고 단순·규칙적인 구조로 표현력을 강화(리셉티브 필드 누적의 효과)  
 - **GoogLeNet / Inception (2014)**: **멀티-스케일 분기(Inception 모듈)** + **1×1 병목**으로 연산 효율·표현력 동시 추구, 보조 분류기(auxiliary classifier) 활용
 
-## 🧠 What you’ll learn
+## What you’ll learn
 - 3×3 스택 vs. 큰 커널(5×5, 7×7)의 **Receptive Filed 등가성**과 **표현·연산 트레이드오프**
 - **1×1 컨볼루션**의 역할(채널 혼합·차원 축소·비선형성 삽입)과 연산량 절감 효과
 - **Pooling 선택**(Max vs. Avg), **Padding/Stride 설계**, **정규화·규제 기법**(Dropout 등)이 성능과 안정성에 미치는 영향
@@ -23,7 +23,7 @@
 
 ---
 
-# 🚀 Presentation
+# Presentation
 <img width="1920" height="1080" alt="001" src="https://github.com/user-attachments/assets/a178b52b-c431-4a2e-8229-ab8430544884" />
 <img width="1920" height="1080" alt="002" src="https://github.com/user-attachments/assets/568553fc-6a91-412f-aeb9-1a8a9a4fb289" />
 <img width="1920" height="1080" alt="003" src="https://github.com/user-attachments/assets/3b3c9288-0516-4a17-b1fc-408657b65b30" />
