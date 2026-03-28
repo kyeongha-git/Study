@@ -1,4 +1,4 @@
-# 👋 Introduction
+# Introduction
 
 본 발표는 **ALBEF: Align Before Fuse (NeurIPS, 2021)** 를 다룹니다.  
 
@@ -11,7 +11,7 @@ ALBEF는 Vision–Language Pretraining(VLP) 모델로, 핵심 아이디어는 **
 
 ---
 
-## ✨ TL;DR
+## TL;DR
 - **문제**: 웹에서 수집한 이미지–텍스트 쌍은 잡음이 많아 정렬이 어려움  
 - **아이디어**: 이미지–텍스트를 먼저 **Align(대조학습)** 하고, 그 후 **Fuse(융합)**  
 - **구현**: Dual Encoder로 Alignment 학습 + Fusion Encoder에서 결합  
@@ -19,7 +19,7 @@ ALBEF는 Vision–Language Pretraining(VLP) 모델로, 핵심 아이디어는 **
 
 ---
 
-## 🧩 How It Works (한 장 요약)
+## How It Works (한 장 요약)
 1. **Input Encoding**  
    - **Image Encoder**: ViT 기반 이미지 표현  
    - **Text Encoder**: BERT 기반 텍스트 표현  
@@ -35,26 +35,26 @@ ALBEF는 Vision–Language Pretraining(VLP) 모델로, 핵심 아이디어는 **
 
 ---
 
-## 🔍 강점(Strengths)
+## 강점
 - **잡음 견고성**: noisy 웹 데이터에서도 안정적인 정렬 가능  
 - **단계적 학습**: Align → Fuse 단계 구분으로 효율적인 학습  
 - **범용성**: VQA, Retrieval, NLVR² 등 다양한 다운스트림 태스크에서 SOTA 달성  
 
-## ⚠️ 한계(Caveats)
+## 한계
 - **학습 복잡성**: Dual Encoder + Fusion Encoder 구조로 학습/추론 비용 증가  
 - **데이터 의존성**: 여전히 대규모 웹 데이터 필요  
 - **후속 발전**: BLIP, BLIP-2는 더 효율적이고 확장성 있는 방식으로 발전  
 
 ---
 
-## 🧭 실무 팁(Quick Tips)
+## 실무 팁
 - 웹 데이터 기반 프로젝트에서 **잡음 제거 대신 정렬(Alignment) 전략** 활용 가능  
 - Contrastive Loss는 downstream 태스크 전이력 개선에 핵심적 → 구현 시 튜닝 중요  
 - Fusion Encoder는 비용이 크므로 실무에서는 Dual Encoder만 활용하는 경우도 많음  
 
 ---
 
-# 🚀 Presentation
+# Presentation
 <img width="1920" height="1080" alt="슬라이드27" src="https://github.com/user-attachments/assets/0212ccd1-fb1a-4326-8eee-7fef9e63fa4a" />
 <img width="1920" height="1080" alt="슬라이드28" src="https://github.com/user-attachments/assets/ac82dbbc-419a-4de2-8311-92f1157b2a90" />
 <img width="1920" height="1080" alt="슬라이드29" src="https://github.com/user-attachments/assets/11c77965-2135-4b56-b24b-b4d47cb0567b" />
