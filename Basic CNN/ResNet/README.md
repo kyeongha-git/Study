@@ -1,9 +1,9 @@
-# 👋 Introduction
+# Introduction
 
 본 발표는 **Deep Residual Learning for Image Recognition (He et al., 2015/2016)**, 일명 **ResNet**을 다룹니다.  
 ResNet은 깊이가 늘어날수록 **훈련 오차조차 커지는 Degradation 문제**를 **Residual Learning**과 **Shortcut(Identity) Connection**으로 해결하여, “더 깊을수록 더 좋다”는 방향을 **현실화**한 모델입니다.
 
-## ✨ TL;DR
+## TL;DR
 - **핵심 아이디어**: 원하는 사상 \(H(x)\)를 직접 학습하는 대신, **잔차 \(F(x)=H(x)-x\)** 를 학습하고 **\(y = F(x) + x\)** 로 출력  
 - **효과**: **정보·그래디언트가 shortcut을 통해 직접 흐름** → 깊은 네트워크의 **최적화 용이성**과 **일반화** 동시 확보  
 - **아키텍처**:  
@@ -12,21 +12,21 @@ ResNet은 깊이가 늘어날수록 **훈련 오차조차 커지는 Degradation 
 - **성능**: ImageNet에서 **50–152층**으로 SOTA 갱신, 검출/분할 등 다운스트림에서도 강력한 백본으로 자리매김  
   - **주의**: **1202층** 실험은 **CIFAR-10**에서의 결과이며, ImageNet은 152층까지 보고됨
 
-## 🧩 어떻게 동작하나 (요지)
+## 어떻게 동작하나 (요지)
 1. **Residual Block**: 하위 경로는 일반 conv, 상위 경로는 **identity(또는 1×1 projection)** 로 입력을 **직결**  
 2. **차원/해상도 변경 시**: stride 2 및 **projection shortcut(1×1 conv)** 로 채널/공간 정합  
 3. **학습 관점**:  
    - 최적화 난이도 ↓: **항등함수**가 쉬운 해로 존재 → 깊어져도 최소한의 성능 보존  
    - 표현력 ↑: 잔차 경로가 **필요한 변화만** 학습 → 안정적 수렴
 
-## 🔍 설계 포인트
+## 설계 포인트
 - **BatchNorm + ReLU**: 각 conv 뒤 정규화/활성화로 깊은 네트워크 안정화  
 - **Bottleneck**: 1×1으로 채널 축소/확장 → **연산량 절감**과 **표현력 유지**  
 - **Shortcut 종류**:  
   - **Identity**(차원 동일)  
   - **Projection (1×1 conv)**: 차원/해상도 불일치 시 사용
 
-## ⚠️ 실무 메모
+## 실무 메모
 - **학습 스케줄**과 **정규화(BN 통계)** 가 성능에 민감  
 - **Pre-activation ResNet(ResNet v2)** 는 BN/활성화를 블록 앞단으로 이동해 **깊은 네트워크의 학습 안정성**을 더 높임(후속 연구)
 
