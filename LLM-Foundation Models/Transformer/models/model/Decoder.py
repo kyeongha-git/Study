@@ -41,5 +41,6 @@ class Decoder(nn.Module):
             x = layer(trg, enc_src, trg_mask, src_mask)
 
         output = self.linear(trg)
+        output = self.softmax(output)
         return output
 
